@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚗 NeuraDrive Innovators: AI Driver Wellness Monitor
 
 ## Project Goal
@@ -19,3 +20,7 @@ Volkswagen Group Digital Solutions - i. [cite_start]Mobilothon 5.0 [cite: 76]
 | Member B | Behavioral Data Engineer | LSTM Anomaly Model (Steering) |
 | Member C | Dashboard Developer | Streamlit UI, Video Feed |
 | Member D | Alert & Sensor Engineer | Physiological Data (HR), Alert Logic |
+=======
+# NeuraDrive
+Driver wellness monitoring system
+>>>>>>> d356a817cf75f0391a976b43f7691e5147bc4e1c

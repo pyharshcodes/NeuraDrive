@@ -1,0 +1,46 @@
+# ===============================
+# Project Name: NeuraDrive
+# Description: Neural-driven behavioral simulation system
+# Maintainer: Harsh Deep Chak
+# ===============================
+
+# Core Python Libraries
+numpy
+pandas
+scipy
+
+# Machine Learning / Deep Learning
+scikit-learn
+tensorflow
+torch
+torchvision
+
+# Image Processing (for vision module)
+opencv-python
+dlib
+mediapipe
+
+# Data Visualization & Dashboard
+matplotlib
+seaborn
+plotly
+dash
+
+# Simulation & Behavior Modeling
+gym
+pygame
+
+# Utilities
+requests
+tqdm
+joblib
+
+# Developer Tools
+flake8
+black
+
+streamlit
+opencv-python-headless
+pyttsx3
+dlib
+numpy

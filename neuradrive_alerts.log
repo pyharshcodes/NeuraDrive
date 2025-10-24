@@ -1,0 +1,2883 @@
+2025-10-17 23:36:41,342 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-17 23:36:41,343 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-17 23:38:28,726 - INFO - Driver profile saved.
+2025-10-17 23:38:28,882 - INFO - Location server started on port 5000
+2025-10-17 23:38:32,230 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.219:5000
+2025-10-17 23:38:32,231 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-17 23:38:50,484 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D231FF5400>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:38:50,892 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:38:50,893 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:38:50,893 - INFO - Headers:
+2025-10-17 23:38:50,893 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:38:50,893 - INFO - Accept : application/json
+2025-10-17 23:38:50,893 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:38:50,893 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:38:50,893 - INFO - Accept-Charset : utf-8
+2025-10-17 23:38:50,893 - INFO - -- END Twilio API Request --
+2025-10-17 23:38:51,907 - INFO - Response Status Code: 404
+2025-10-17 23:38:51,907 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:08:52 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ7419a8db2894c378cf5d7e47891b7a3e', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'BQt4m-qEVSkwMxisuXyr3fcCFw02y_OEAUCjTPQbFGW3zHfKUHxJ7A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:38:51,908 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:39:03,490 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D23E89A350>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:39:03,490 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:39:03,490 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:39:03,491 - INFO - Headers:
+2025-10-17 23:39:03,491 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:39:03,491 - INFO - Accept : application/json
+2025-10-17 23:39:03,491 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:39:03,491 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:39:03,491 - INFO - Accept-Charset : utf-8
+2025-10-17 23:39:03,491 - INFO - -- END Twilio API Request --
+2025-10-17 23:39:04,298 - INFO - Response Status Code: 404
+2025-10-17 23:39:04,299 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:09:04 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQd1116eae5e6bb2287a21a2bcfe8c1776', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'RjsAueAbVb7QHhrN1T9hts5m-LPCVKPJ1YBPwgA_3Rky-nnVktzQ0g==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:39:04,299 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:39:13,867 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D23E89AAD0>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:39:13,867 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:39:13,867 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:39:13,867 - INFO - Headers:
+2025-10-17 23:39:13,867 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:39:13,867 - INFO - Accept : application/json
+2025-10-17 23:39:13,867 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:39:13,867 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:39:13,867 - INFO - Accept-Charset : utf-8
+2025-10-17 23:39:13,867 - INFO - -- END Twilio API Request --
+2025-10-17 23:39:14,127 - INFO - Response Status Code: 404
+2025-10-17 23:39:14,127 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:09:14 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ28f8cf406a6e977070ac27468cae4354', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '_yLA1EQU3JoPADP9yO7ZJ4g7LPKvOhlN_b21H-OBKmi194WnrMgvBQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:39:14,128 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:39:23,892 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D23E89AE90>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:39:23,893 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:39:23,893 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:39:23,893 - INFO - Headers:
+2025-10-17 23:39:23,893 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:39:23,894 - INFO - Accept : application/json
+2025-10-17 23:39:23,894 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:39:23,894 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:39:23,894 - INFO - Accept-Charset : utf-8
+2025-10-17 23:39:23,894 - INFO - -- END Twilio API Request --
+2025-10-17 23:39:24,675 - INFO - Response Status Code: 404
+2025-10-17 23:39:24,675 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:09:25 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQee92aa05be434a26279ea5e79df19e90', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'YNg28O_EElVC5nwry4DHgxoKVUNdV7mS9TyWr5ATGbnBLQYyqJU1wg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:39:24,675 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:39:42,220 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D23E89AC10>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:39:42,221 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:39:42,221 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:39:42,221 - INFO - Headers:
+2025-10-17 23:39:42,221 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:39:42,221 - INFO - Accept : application/json
+2025-10-17 23:39:42,221 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:39:42,221 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:39:42,222 - INFO - Accept-Charset : utf-8
+2025-10-17 23:39:42,222 - INFO - -- END Twilio API Request --
+2025-10-17 23:39:42,494 - INFO - Response Status Code: 404
+2025-10-17 23:39:42,494 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:09:43 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb8bf69ced7e34d20f63fc871a19ab035', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'TfRk7VuEDWMlsFrsTCTrmeiTO_OI3MFbsQTrJljgsmfbvS0forR8Jw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:39:42,494 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:40:04,286 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D23E89B250>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:40:04,287 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:40:04,287 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:40:04,287 - INFO - Headers:
+2025-10-17 23:40:04,287 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:40:04,287 - INFO - Accept : application/json
+2025-10-17 23:40:04,287 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:40:04,288 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:40:04,288 - INFO - Accept-Charset : utf-8
+2025-10-17 23:40:04,288 - INFO - -- END Twilio API Request --
+2025-10-17 23:40:04,713 - INFO - Response Status Code: 404
+2025-10-17 23:40:04,714 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:10:05 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQcbe23c4bf1fb1dab901a3fa5cd9529a8', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'ckmoCsUayreL9pAVco_Ot5hBKnXGX7Py0FOg74X_ihQoiRLSU56psw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:40:04,714 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:41:47,307 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D23E89B610>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-17 23:41:47,308 - INFO - -- BEGIN Twilio API Request --
+2025-10-17 23:41:47,308 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-17 23:41:47,308 - INFO - Headers:
+2025-10-17 23:41:47,308 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-17 23:41:47,308 - INFO - Accept : application/json
+2025-10-17 23:41:47,309 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-17 23:41:47,309 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-17 23:41:47,309 - INFO - Accept-Charset : utf-8
+2025-10-17 23:41:47,309 - INFO - -- END Twilio API Request --
+2025-10-17 23:41:48,139 - INFO - Response Status Code: 404
+2025-10-17 23:41:48,140 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Fri, 17 Oct 2025 18:11:48 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb75593f88fbbf38802203e26eb7e91a4', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'dosALnDiA9lX1wsX5z1JgUWkf0O6aFhvmXLaduwQI4hJkfaZQScY2Q==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-17 23:41:48,140 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-17 23:43:40,681 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-17 23:43:40,682 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-17 23:43:41,023 - INFO - Location server started on port 5000
+2025-10-17 23:43:44,039 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.219:5000
+2025-10-17 23:43:44,040 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 08:16:34,338 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-18 08:16:34,340 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-18 08:16:35,232 - INFO - Location server started on port 5000
+2025-10-18 08:16:38,581 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.226.35.53:5000
+2025-10-18 08:16:38,581 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 08:16:58,583 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E39D25400>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:16:59,011 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:16:59,011 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:16:59,012 - INFO - Headers:
+2025-10-18 08:16:59,012 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:16:59,012 - INFO - Accept : application/json
+2025-10-18 08:16:59,012 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:16:59,012 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:16:59,012 - INFO - Accept-Charset : utf-8
+2025-10-18 08:16:59,012 - INFO - -- END Twilio API Request --
+2025-10-18 08:16:59,876 - INFO - Response Status Code: 404
+2025-10-18 08:16:59,876 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:47:00 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQf89c8048480176d768c2d072f285b184', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e84e3d2180ad6d18a31ea765a099b5b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'M8Pe6q8NKkuj6eQm_qjnaiNYo7FAGsdb0bL0LOtUFwTnP_Ho2yVosQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:16:59,876 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:17:08,325 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021E464EA350>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:17:08,325 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:17:08,325 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:17:08,325 - INFO - Headers:
+2025-10-18 08:17:08,325 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:17:08,325 - INFO - Accept : application/json
+2025-10-18 08:17:08,325 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:17:08,325 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:17:08,325 - INFO - Accept-Charset : utf-8
+2025-10-18 08:17:08,326 - INFO - -- END Twilio API Request --
+2025-10-18 08:17:08,709 - INFO - Response Status Code: 404
+2025-10-18 08:17:08,710 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:47:08 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ938761d84f3b3e06e27f524068eb9a0c', 'Twilio-Request-Duration': '0.001', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e84e3d2180ad6d18a31ea765a099b5b4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'fvuxYz6vYO51dD1CnhdUTeo016zRlAxo-lFX7TU364XUmybQci-hPw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:17:08,710 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:17:15,273 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-18 08:17:15,275 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-18 08:17:15,942 - INFO - Location server started on port 5000
+2025-10-18 08:17:21,351 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.226.35.53:5000
+2025-10-18 08:17:21,351 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 08:17:38,983 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002847FE25400>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:17:39,258 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:17:39,258 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:17:39,258 - INFO - Headers:
+2025-10-18 08:17:39,258 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:17:39,258 - INFO - Accept : application/json
+2025-10-18 08:17:39,258 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:17:39,258 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:17:39,259 - INFO - Accept-Charset : utf-8
+2025-10-18 08:17:39,259 - INFO - -- END Twilio API Request --
+2025-10-18 08:17:41,566 - INFO - Response Status Code: 404
+2025-10-18 08:17:41,566 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:47:41 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ71eb8f113547c6f027f381e16212658d', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'rK2BSLAhh7hXrf32kf_oiskwEsjuofC1wQzoNBjb78yawwHRISrhyQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:17:41,567 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:17:57,537 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EA350>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:17:57,537 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:17:57,538 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:17:57,538 - INFO - Headers:
+2025-10-18 08:17:57,538 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:17:57,538 - INFO - Accept : application/json
+2025-10-18 08:17:57,538 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:17:57,538 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:17:57,538 - INFO - Accept-Charset : utf-8
+2025-10-18 08:17:57,538 - INFO - -- END Twilio API Request --
+2025-10-18 08:17:57,808 - INFO - Response Status Code: 404
+2025-10-18 08:17:57,808 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:47:58 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQdffc5f4c9c8bb812d4b3289468a902b4', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'gegABGdSZCTbG_66h-LCxAmY_HB_aK9OlbyGwlj0yLUwZt5o9fqFMg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:17:57,808 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:18:07,698 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EAAD0>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:18:07,698 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:18:07,698 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:18:07,699 - INFO - Headers:
+2025-10-18 08:18:07,699 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:18:07,699 - INFO - Accept : application/json
+2025-10-18 08:18:07,699 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:18:07,699 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:18:07,699 - INFO - Accept-Charset : utf-8
+2025-10-18 08:18:07,699 - INFO - -- END Twilio API Request --
+2025-10-18 08:18:08,006 - INFO - Response Status Code: 404
+2025-10-18 08:18:08,006 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:48:08 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb1b6496e1af130225dedcb5998877f43', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'a4S8gBE72gcZAYWwJCZbfvr0-zOdN7aFelgIWIfYpDOfLitm52q77w==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:18:08,007 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:18:17,981 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EAE90>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:18:17,982 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:18:17,982 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:18:17,982 - INFO - Headers:
+2025-10-18 08:18:17,982 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:18:17,983 - INFO - Accept : application/json
+2025-10-18 08:18:17,983 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:18:17,983 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:18:17,983 - INFO - Accept-Charset : utf-8
+2025-10-18 08:18:17,983 - INFO - -- END Twilio API Request --
+2025-10-18 08:18:18,782 - INFO - Response Status Code: 404
+2025-10-18 08:18:18,782 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:48:18 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ9c41266b1026c5fe0444c7f9bd9a5e4a', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'd2T9U_wovJdf5z_-OuzCEr4eJ7QUmOcwcCpWoR_HMwM8ISYwjcxUBw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:18:18,782 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:18:28,020 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EAC10>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:18:28,020 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:18:28,020 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:18:28,020 - INFO - Headers:
+2025-10-18 08:18:28,020 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:18:28,021 - INFO - Accept : application/json
+2025-10-18 08:18:28,021 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:18:28,021 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:18:28,021 - INFO - Accept-Charset : utf-8
+2025-10-18 08:18:28,021 - INFO - -- END Twilio API Request --
+2025-10-18 08:18:28,530 - INFO - Response Status Code: 404
+2025-10-18 08:18:28,530 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:48:28 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ63ff2b2c05927f6f7c23bd99021c4eaf', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'yA33IQxah81pU6X4b8EbqWmSlRvZHouMmuS_JE-2kNHCu2Bt3sciUw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:18:28,530 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:18:38,161 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EB250>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:18:38,161 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:18:38,162 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:18:38,162 - INFO - Headers:
+2025-10-18 08:18:38,162 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:18:38,162 - INFO - Accept : application/json
+2025-10-18 08:18:38,162 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:18:38,162 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:18:38,162 - INFO - Accept-Charset : utf-8
+2025-10-18 08:18:38,162 - INFO - -- END Twilio API Request --
+2025-10-18 08:18:39,036 - INFO - Response Status Code: 404
+2025-10-18 08:18:39,036 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:48:39 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQdab220f43383dcc83465958815bd2926', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'Sxc8T-JAz-gXZWdVrHA7gZmvvLpv5FN5RhDXZRSq8wsvzqMtw9-wTQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:18:39,037 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:18:48,627 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EB610>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:18:48,627 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:18:48,627 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:18:48,627 - INFO - Headers:
+2025-10-18 08:18:48,628 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:18:48,628 - INFO - Accept : application/json
+2025-10-18 08:18:48,628 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:18:48,628 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:18:48,628 - INFO - Accept-Charset : utf-8
+2025-10-18 08:18:48,628 - INFO - -- END Twilio API Request --
+2025-10-18 08:18:49,583 - INFO - Response Status Code: 404
+2025-10-18 08:18:49,583 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:48:49 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ5e346c6b19effa0028b826333d412e2d', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '8Oah4Wid556wnHT9Sk1-hvWwvhZXQzahJOgT_53ULdMch5L1_AVizw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:18:49,584 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:19:05,778 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EB9D0>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:19:05,779 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:19:05,779 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:19:05,779 - INFO - Headers:
+2025-10-18 08:19:05,779 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:19:05,779 - INFO - Accept : application/json
+2025-10-18 08:19:05,779 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:19:05,779 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:19:05,779 - INFO - Accept-Charset : utf-8
+2025-10-18 08:19:05,779 - INFO - -- END Twilio API Request --
+2025-10-18 08:19:06,067 - INFO - Response Status Code: 404
+2025-10-18 08:19:06,067 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:49:06 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQed2fe081e5c9c799d07041df7ccf7d7b', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'SebIG5bV7rI7yKBftuO6YmGh2wCV4JzZHPkjsz3kjXlbMIoH4Ue0cA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:19:06,068 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:19:15,718 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EBD90>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:19:15,719 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:19:15,719 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:19:15,719 - INFO - Headers:
+2025-10-18 08:19:15,720 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:19:15,720 - INFO - Accept : application/json
+2025-10-18 08:19:15,720 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:19:15,720 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:19:15,721 - INFO - Accept-Charset : utf-8
+2025-10-18 08:19:15,721 - INFO - -- END Twilio API Request --
+2025-10-18 08:19:16,106 - INFO - Response Status Code: 404
+2025-10-18 08:19:16,106 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:49:16 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ4f69b64b546724ba1cba144a17fd6e72', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'G4xTvusL548Ej3MauE4sUsE9iKnAJWxHHW-ApngYryzVZTTpvicFiA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:19:16,106 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:19:28,748 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D7C8190>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:19:28,748 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:19:28,748 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:19:28,748 - INFO - Headers:
+2025-10-18 08:19:28,748 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:19:28,748 - INFO - Accept : application/json
+2025-10-18 08:19:28,749 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:19:28,749 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:19:28,749 - INFO - Accept-Charset : utf-8
+2025-10-18 08:19:28,749 - INFO - -- END Twilio API Request --
+2025-10-18 08:19:29,095 - INFO - Response Status Code: 404
+2025-10-18 08:19:29,095 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:49:29 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQf70dc9e05d1cfaa98fcc34c3e7eeb4d4', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'gCsHlQUpVNsjxHE_-fjfAmOPLyaHGg71Ynm4Iluay5Msl4h_9lBcTg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:19:29,096 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:19:39,851 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D7C8550>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:19:39,851 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:19:39,851 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:19:39,851 - INFO - Headers:
+2025-10-18 08:19:39,851 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:19:39,851 - INFO - Accept : application/json
+2025-10-18 08:19:39,851 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:19:39,851 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:19:39,851 - INFO - Accept-Charset : utf-8
+2025-10-18 08:19:39,852 - INFO - -- END Twilio API Request --
+2025-10-18 08:19:40,575 - INFO - Response Status Code: 404
+2025-10-18 08:19:40,575 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:49:40 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQa9a37328f9b09de7a47fd2562fc4bd11', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'VXHoEAmpiWRK3IpRDLqlHDKusR0OeC1UlN1dmym-L_YHGs_k1FkqNw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:19:40,575 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:19:49,848 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D7C8910>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:19:49,848 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:19:49,849 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:19:49,849 - INFO - Headers:
+2025-10-18 08:19:49,849 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:19:49,849 - INFO - Accept : application/json
+2025-10-18 08:19:49,849 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:19:49,849 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:19:49,849 - INFO - Accept-Charset : utf-8
+2025-10-18 08:19:49,849 - INFO - -- END Twilio API Request --
+2025-10-18 08:19:50,599 - INFO - Response Status Code: 404
+2025-10-18 08:19:50,600 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:49:50 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ578b92fba4b01b18224351dc780dc4ef', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '7rdVaN310usL6P_JIHvM5VAkp2qyJjveM_Zh_dPzA-_D2WVm3B_VbQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:19:50,600 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:20:02,482 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D7C8CD0>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:20:02,482 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:20:02,482 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:20:02,483 - INFO - Headers:
+2025-10-18 08:20:02,483 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:20:02,483 - INFO - Accept : application/json
+2025-10-18 08:20:02,483 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:20:02,483 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:20:02,483 - INFO - Accept-Charset : utf-8
+2025-10-18 08:20:02,483 - INFO - -- END Twilio API Request --
+2025-10-18 08:20:02,811 - INFO - Response Status Code: 404
+2025-10-18 08:20:02,812 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:50:03 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb62f7b2a2f7648087bd8ff3f8c8b33c5', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'ulsR4kagcYaAAPp2R2zTwpl-hXue2USSAOsxFpMHlWOtSDKJGVbrYw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:20:02,812 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:20:20,410 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002847FAD2C10>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:20:20,410 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:20:20,410 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:20:20,410 - INFO - Headers:
+2025-10-18 08:20:20,411 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:20:20,411 - INFO - Accept : application/json
+2025-10-18 08:20:20,411 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:20:20,411 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:20:20,411 - INFO - Accept-Charset : utf-8
+2025-10-18 08:20:20,411 - INFO - -- END Twilio API Request --
+2025-10-18 08:20:21,026 - INFO - Response Status Code: 404
+2025-10-18 08:20:21,026 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:50:21 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ1ec26f302698f3caf632d35f201196d9', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': '2uplv7_ST1tIPRy01YItYnhmj6p2tNcKS-0sdANyhVIE9HrzRnMY0A==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:20:21,027 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:20:31,337 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EBC50>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:20:31,338 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:20:31,338 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:20:31,338 - INFO - Headers:
+2025-10-18 08:20:31,338 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:20:31,339 - INFO - Accept : application/json
+2025-10-18 08:20:31,339 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:20:31,339 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:20:31,339 - INFO - Accept-Charset : utf-8
+2025-10-18 08:20:31,339 - INFO - -- END Twilio API Request --
+2025-10-18 08:20:31,881 - INFO - Response Status Code: 404
+2025-10-18 08:20:31,882 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:50:32 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ4d43b305f1a91c4c753abf5b8270abda', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'R620ZxBIxVaxUKP0F37ZoEY0exegEe58ilkv3C6SNrIZSiPLrLDWrg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:20:31,882 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:20:42,985 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002840D6EB890>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:20:42,985 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:20:42,985 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:20:42,985 - INFO - Headers:
+2025-10-18 08:20:42,985 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:20:42,985 - INFO - Accept : application/json
+2025-10-18 08:20:42,986 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:20:42,986 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:20:42,986 - INFO - Accept-Charset : utf-8
+2025-10-18 08:20:42,986 - INFO - -- END Twilio API Request --
+2025-10-18 08:20:43,852 - INFO - Response Status Code: 404
+2025-10-18 08:20:43,852 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:50:44 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ9e45feab0017a37791d804e7c1a0d4d1', 'Twilio-Request-Duration': '0.001', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 31d74c8d65c5b9b59345d2b28c72aa24.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'DAK-OGKXcbBLI-EFEmz5aY4aFnb-4mZlTXtO7py-5zpZMbmHUqZ3Ig==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:20:43,852 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:21:29,131 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-18 08:21:29,131 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-18 08:21:29,372 - INFO - Location server started on port 5000
+2025-10-18 08:21:31,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.226.35.53:5000
+2025-10-18 08:21:31,966 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 08:21:45,373 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024AC53F5400>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:21:45,712 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:21:45,713 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:21:45,713 - INFO - Headers:
+2025-10-18 08:21:45,713 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:21:45,713 - INFO - Accept : application/json
+2025-10-18 08:21:45,713 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:21:45,713 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:21:45,714 - INFO - Accept-Charset : utf-8
+2025-10-18 08:21:45,714 - INFO - -- END Twilio API Request --
+2025-10-18 08:21:46,940 - INFO - Response Status Code: 404
+2025-10-18 08:21:46,941 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:51:47 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ510d5e35efe41b4faed94c443ead988a', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'NeSPKju8ZwJaj0UdBkX4Z0Odqxn0Ttusrp2fK0oBRE9hdy2BWnHaxQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:21:46,941 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:21:59,543 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024AD1B6A350>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:21:59,543 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:21:59,544 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:21:59,544 - INFO - Headers:
+2025-10-18 08:21:59,544 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:21:59,544 - INFO - Accept : application/json
+2025-10-18 08:21:59,544 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:21:59,544 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:21:59,544 - INFO - Accept-Charset : utf-8
+2025-10-18 08:21:59,544 - INFO - -- END Twilio API Request --
+2025-10-18 08:21:59,947 - INFO - Response Status Code: 404
+2025-10-18 08:21:59,947 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:52:00 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQcdd1e201b493b054ced40f86d2ddd4f4', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'uTBDcLW7OtlkD7Tfr1u1jZaTqmiPffnid1zTHidCOUSo90rFHOJ0lw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:21:59,947 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:22:22,183 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024AD1B6AAD0>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:22:22,183 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:22:22,184 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:22:22,184 - INFO - Headers:
+2025-10-18 08:22:22,184 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:22:22,184 - INFO - Accept : application/json
+2025-10-18 08:22:22,184 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:22:22,184 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:22:22,184 - INFO - Accept-Charset : utf-8
+2025-10-18 08:22:22,185 - INFO - -- END Twilio API Request --
+2025-10-18 08:22:22,596 - INFO - Response Status Code: 404
+2025-10-18 08:22:22,596 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:52:22 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb26d91e63e6d534c79aa8199177fb1a0', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'G9aJH-Egz4gKuY7XtSIP17ZwWiRLq5NunnoRDCGZ8X4DfpAbIETOXQ==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:22:22,596 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:22:33,810 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024AD1B6AE90>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:22:33,810 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:22:33,810 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:22:33,810 - INFO - Headers:
+2025-10-18 08:22:33,810 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:22:33,810 - INFO - Accept : application/json
+2025-10-18 08:22:33,810 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:22:33,811 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:22:33,811 - INFO - Accept-Charset : utf-8
+2025-10-18 08:22:33,811 - INFO - -- END Twilio API Request --
+2025-10-18 08:22:34,556 - INFO - Response Status Code: 404
+2025-10-18 08:22:34,556 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:52:34 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQ07bfaef34b18612bbd2c39962c5235fb', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'C3Ku1VF0tHWuxwAq07339w-QQVIgUnJciNzsG3kkz1eXlI04eDahpg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:22:34,557 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:22:43,877 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024AD1B6AC10>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:22:43,877 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:22:43,877 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:22:43,877 - INFO - Headers:
+2025-10-18 08:22:43,877 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:22:43,878 - INFO - Accept : application/json
+2025-10-18 08:22:43,878 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:22:43,878 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:22:43,878 - INFO - Accept-Charset : utf-8
+2025-10-18 08:22:43,878 - INFO - -- END Twilio API Request --
+2025-10-18 08:22:44,694 - INFO - Response Status Code: 404
+2025-10-18 08:22:44,695 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:52:44 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb37aecd2799f0467fa31aae8cb4a6b2f', 'Twilio-Request-Duration': '0.000', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'Ptit8lZU9x56Up3F7ag8exYIHbuHO98e3KCFjaGEAe0KItvq7eR1aw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:22:44,695 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-18 08:22:53,912 - ERROR - HTTP alert error: HTTPSConnectionPool(host='helpline.example.org', port=443): Max retries exceeded with url: /api/alerts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024AD1B6B250>: Failed to resolve 'helpline.example.org' ([Errno 11001] getaddrinfo failed)"))
+2025-10-18 08:22:53,912 - INFO - -- BEGIN Twilio API Request --
+2025-10-18 08:22:53,912 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-18 08:22:53,912 - INFO - Headers:
+2025-10-18 08:22:53,913 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-10-18 08:22:53,913 - INFO - Accept : application/json
+2025-10-18 08:22:53,913 - INFO - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-18 08:22:53,913 - INFO - X-Twilio-Client : python-9.8.4
+2025-10-18 08:22:53,913 - INFO - Accept-Charset : utf-8
+2025-10-18 08:22:53,913 - INFO - -- END Twilio API Request --
+2025-10-18 08:22:54,326 - INFO - Response Status Code: 404
+2025-10-18 08:22:54,326 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '187', 'Connection': 'keep-alive', 'Date': 'Sat, 18 Oct 2025 02:52:54 GMT', 'X-Twilio-Error-Code': '20404', 'Twilio-Request-Id': 'RQb7b8b840968c203be7be6e488e7281fc', 'Twilio-Request-Duration': '0.001', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0587d29bba1a416012edbf0b64a7e34c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'aXxeSMjL4WMjXTh80InGmKJVtKRZohtTNBVTBnAwKVJEhtyp6dOWmg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-10-18 08:22:54,327 - ERROR - Twilio send failed: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The requested resource /2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxx/Messages.json was not found[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20404[0m
+
+
+2025-10-19 07:19:29,959 - INFO - Location server started on port 5000
+2025-10-19 07:19:31,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.219:5000
+2025-10-19 07:19:31,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:24:29,703 - INFO - Location server started on port 5000
+2025-10-19 07:24:29,998 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.219:5000
+2025-10-19 07:24:29,998 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:33:32,013 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-19 07:33:32,014 - [33mPress CTRL+C to quit[0m
+2025-10-19 07:35:12,208 - \u26a0\ufe0f Drowsiness Detected! Driver: Harsh
+2025-10-19 07:35:16,643 - -- BEGIN Twilio API Request --
+2025-10-19 07:35:16,643 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-19 07:35:16,643 - Headers:
+2025-10-19 07:35:16,644 - Content-Type : application/x-www-form-urlencoded
+2025-10-19 07:35:16,644 - Accept : application/json
+2025-10-19 07:35:16,644 - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-19 07:35:16,644 - X-Twilio-Client : python-9.8.4
+2025-10-19 07:35:16,644 - Accept-Charset : utf-8
+2025-10-19 07:35:16,644 - -- END Twilio API Request --
+2025-10-19 07:35:18,565 - Response Status Code: 401
+2025-10-19 07:35:18,566 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '134', 'Connection': 'keep-alive', 'Date': 'Sun, 19 Oct 2025 02:05:18 GMT', 'X-API-Domain': 'api.twilio.com', 'X-Verification-Disclosure': 'Message Accepted. Pending content verification for US/Canada destination numbers:', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Twilio-Request-Id': 'RQ4dfe0d84715913041e783784d383587c', 'X-Shenanigans': 'none', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 8b519479acb11940c85c873e3175ae14.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'hws4jJRorKKjfWc86R6g7ogXMAlGPWeOQBQjDfVwndXU6NRQHozPwQ=='}
+2025-10-19 07:35:38,569 - \u26a0\ufe0f Drowsiness Detected! Driver: Harsh
+2025-10-19 07:35:38,815 - -- BEGIN Twilio API Request --
+2025-10-19 07:35:38,815 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-19 07:35:38,815 - Headers:
+2025-10-19 07:35:38,815 - Content-Type : application/x-www-form-urlencoded
+2025-10-19 07:35:38,815 - Accept : application/json
+2025-10-19 07:35:38,815 - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-19 07:35:38,816 - X-Twilio-Client : python-9.8.4
+2025-10-19 07:35:38,816 - Accept-Charset : utf-8
+2025-10-19 07:35:38,816 - -- END Twilio API Request --
+2025-10-19 07:35:39,665 - Response Status Code: 401
+2025-10-19 07:35:39,666 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '134', 'Connection': 'keep-alive', 'Date': 'Sun, 19 Oct 2025 02:05:40 GMT', 'X-API-Domain': 'api.twilio.com', 'X-Verification-Disclosure': 'Message Accepted. Pending content verification for US/Canada destination numbers:', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Twilio-Request-Id': 'RQ8a66da690112e57a6fc52a68ae78747b', 'X-Shenanigans': 'none', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 ea84202b1f8397767f86ec3f00985a12.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'pXqMjwSh36KP6Oq7wWvwtaigX-7q_m1pKGdH9GCvDtSZYzOj1gd5ig=='}
+2025-10-19 07:35:59,693 - \u26a0\ufe0f Drowsiness Detected! Driver: Harsh
+2025-10-19 07:35:59,969 - -- BEGIN Twilio API Request --
+2025-10-19 07:35:59,969 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-19 07:35:59,969 - Headers:
+2025-10-19 07:35:59,969 - Content-Type : application/x-www-form-urlencoded
+2025-10-19 07:35:59,970 - Accept : application/json
+2025-10-19 07:35:59,970 - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-19 07:35:59,970 - X-Twilio-Client : python-9.8.4
+2025-10-19 07:35:59,970 - Accept-Charset : utf-8
+2025-10-19 07:35:59,970 - -- END Twilio API Request --
+2025-10-19 07:36:00,448 - Response Status Code: 401
+2025-10-19 07:36:00,449 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '134', 'Connection': 'keep-alive', 'Date': 'Sun, 19 Oct 2025 02:06:00 GMT', 'X-API-Domain': 'api.twilio.com', 'X-Verification-Disclosure': 'Message Accepted. Pending content verification for US/Canada destination numbers:', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Twilio-Request-Id': 'RQ0646708cd7871bdec53fcbfb6122118f', 'X-Shenanigans': 'none', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 f98d322afc86903bcb00e6abe439512e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'g_i2UlU1v4dwgGJ8-bP7U0LrKG5TffD8tLkXCGK5vqKD5UR-691lwA=='}
+2025-10-19 07:36:20,460 - \u26a0\ufe0f Drowsiness Detected! Driver: Harsh
+2025-10-19 07:36:20,724 - -- BEGIN Twilio API Request --
+2025-10-19 07:36:20,725 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-19 07:36:20,725 - Headers:
+2025-10-19 07:36:20,725 - Content-Type : application/x-www-form-urlencoded
+2025-10-19 07:36:20,725 - Accept : application/json
+2025-10-19 07:36:20,725 - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-19 07:36:20,725 - X-Twilio-Client : python-9.8.4
+2025-10-19 07:36:20,725 - Accept-Charset : utf-8
+2025-10-19 07:36:20,726 - -- END Twilio API Request --
+2025-10-19 07:36:21,644 - Response Status Code: 401
+2025-10-19 07:36:21,644 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '134', 'Connection': 'keep-alive', 'Date': 'Sun, 19 Oct 2025 02:06:21 GMT', 'X-API-Domain': 'api.twilio.com', 'X-Verification-Disclosure': 'Message Accepted. Pending content verification for US/Canada destination numbers:', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Twilio-Request-Id': 'RQ8cfc5a178bb6511eb67c32f73d2fbd96', 'X-Shenanigans': 'none', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 32425d05dba07c0bc08aaf2049c77326.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'hg_pxe7iADDW0xckHtkxLO581kWSXX5TObXwYLvIRAN4G464QtFI2g=='}
+2025-10-19 07:36:41,672 - \u26a0\ufe0f Drowsiness Detected! Driver: Harsh
+2025-10-19 07:36:41,936 - -- BEGIN Twilio API Request --
+2025-10-19 07:36:41,937 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-19 07:36:41,937 - Headers:
+2025-10-19 07:36:41,937 - Content-Type : application/x-www-form-urlencoded
+2025-10-19 07:36:41,937 - Accept : application/json
+2025-10-19 07:36:41,938 - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-19 07:36:41,938 - X-Twilio-Client : python-9.8.4
+2025-10-19 07:36:41,938 - Accept-Charset : utf-8
+2025-10-19 07:36:41,938 - -- END Twilio API Request --
+2025-10-19 07:36:42,943 - Response Status Code: 401
+2025-10-19 07:36:42,944 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '134', 'Connection': 'keep-alive', 'Date': 'Sun, 19 Oct 2025 02:06:43 GMT', 'X-API-Domain': 'api.twilio.com', 'X-Verification-Disclosure': 'Message Accepted. Pending content verification for US/Canada destination numbers:', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Twilio-Request-Id': 'RQ96b4cb2bf41a66f23cdb1f03d604bd6d', 'X-Shenanigans': 'none', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 38e78452b9b62c839c58248b6a190b3c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'n77khaJhQ9c01O5a8bGeNx4zLueKzKWR0WeZPh4DqJm7NwRq0jOOyQ=='}
+2025-10-19 07:37:02,967 - \u26a0\ufe0f Drowsiness Detected! Driver: Harsh
+2025-10-19 07:37:03,233 - -- BEGIN Twilio API Request --
+2025-10-19 07:37:03,233 - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/Messages.json
+2025-10-19 07:37:03,233 - Headers:
+2025-10-19 07:37:03,234 - Content-Type : application/x-www-form-urlencoded
+2025-10-19 07:37:03,234 - Accept : application/json
+2025-10-19 07:37:03,234 - User-Agent : twilio-python/9.8.4 (Windows AMD64) Python/3.13.3
+2025-10-19 07:37:03,234 - X-Twilio-Client : python-9.8.4
+2025-10-19 07:37:03,234 - Accept-Charset : utf-8
+2025-10-19 07:37:03,234 - -- END Twilio API Request --
+2025-10-19 07:37:04,346 - Response Status Code: 401
+2025-10-19 07:37:04,346 - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '134', 'Connection': 'keep-alive', 'Date': 'Sun, 19 Oct 2025 02:07:04 GMT', 'X-API-Domain': 'api.twilio.com', 'X-Verification-Disclosure': 'Message Accepted. Pending content verification for US/Canada destination numbers:', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Twilio-Request-Id': 'RQb61924b19258a5521dc0aef1efbc1e48', 'X-Shenanigans': 'none', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 bf084b319ce7781c125b74c71a495762.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DEL54-P3', 'X-Amz-Cf-Id': 'G3AEdjUlzIhU9hn-NICzfL7NoPL3aIW_-rAI7yBU9p1MXR2Dt4Q4AA=='}
+2025-10-23 21:51:33,053 - INFO - Location server started on port 5001
+2025-10-23 21:51:33,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.127.161.53:5001
+2025-10-23 21:51:33,102 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 21:51:51,039 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-23 21:51:51,040 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-23 22:56:36,088 - INFO - Location server started on port 5001
+2025-10-23 22:56:36,135 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.127.161.53:5001
+2025-10-23 22:56:36,135 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 22:56:53,115 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-23 22:56:53,117 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-23 23:18:54,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.127.161.53:5001
+2025-10-23 23:18:54,159 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 23:19:14,221 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-23 23:19:14,222 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-10-23 23:24:05,018 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.127.161.53:5001
+2025-10-23 23:24:05,018 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 23:24:23,725 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-23 23:24:23,727 - INFO - Using writeable comtypes cache directory: 'C:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+[2025-10-24 21:10:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:10:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:11:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:12:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:13:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:14:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:15:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:16:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:31] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:17:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:18:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:33:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:18] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:18] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:18] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:19] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:19] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:19] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:19] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:19] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:20] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:20] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:20] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:20] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:21] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:21] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:21] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:21] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:22] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:22] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:22] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:22] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:23] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:23] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:24] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:24] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:24] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:24] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:25] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:25] [DROWSINESS] Severe Drowsiness Detected. Take a break!
+[2025-10-24 21:34:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:26] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:32] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:33] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:34] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:35] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:36] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:37] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:38] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:39] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:40] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:41] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:42] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:43] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:44] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:45] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:46] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:47] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:48] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:49] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:50] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:51] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:52] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:53] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:54] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:55] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:56] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:57] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:58] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:34:59] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:00] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:01] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:02] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:03] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:04] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:05] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:06] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:07] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:08] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:09] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:10] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:11] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:12] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:13] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:14] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:15] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:16] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:17] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:18] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:19] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:20] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:21] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:22] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:23] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:24] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:25] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:27] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:28] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:29] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:30] [NO_FACE] Driver not visible.
+[2025-10-24 21:35:30] [NO_FACE] Driver not visible.

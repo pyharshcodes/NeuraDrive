@@ -1,0 +1,10 @@
+{
+    "driver_id": "palak_test_driver_001",
+    "default_ear_threshold": 0.25,
+    "default_consec_frames": 48,
+    "current_shift_start": "2025-10-24 20:00:00",
+    "drowsiness_history_stats": {
+        "avg_ear_baseline": 0.35,
+        "blink_rate_normal": 15
+    }
+}

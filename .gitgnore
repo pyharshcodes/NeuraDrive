@@ -1,0 +1,26 @@
+# NeuraDrive/.gitignore
+
+# --- Environment Files ---
+# Python virtual environment folder ko ignore karo
+neura_env/
+
+# Python compiled files ko ignore karo
+__pycache__/
+*.pyc
+
+# --- Large Model Files ---
+# Dlib landmark model ko ignore karo (badi file)
+data/dlib_models/shape_predictor_68_face_landmarks.dat
+
+# Trained ML models ko ignore karo
+models/
+
+# --- IDE/OS Temporary Files ---
+# VS Code files
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Streamlit data files
+.streamlit/
